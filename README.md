@@ -1,1 +1,1 @@
-# y7tt.github.io
+# https://y7tt.github.io
