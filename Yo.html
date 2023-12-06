@@ -1,0 +1,26 @@
+<html><head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="https://web.cdn.openinstall.io/openinstall.js"></script>
+</head>
+<body style="background-color: #FF98EA;display: flex;align-items: center;justify-content: center;">
+	<div class="" style="background-color: #FF98EA;display: flex;width: 100%;height: 1000px;align-items: center; justify-content: center;flex-direction: column;">
+		<img style="width: 200px;height: 200px;" src="./logo.png" alt="">
+		<button id="downloadButton" style="width:300px;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px">点击安装</button>
+	</div>
+<script type="text/javascript">
+    var data = OpenInstall.parseUrlParams();
+    new OpenInstall({
+        appKey: "ohfkxm",
+        onready: function() {
+            this.schemeWakeup();
+            var m = this;
+	        var button = document.getElementById("downloadButton");
+            button.onclick = function() {
+                m.wakeupOrInstall();
+                return false;
+            };
+        }
+    }, data);
+</script>
+
+</body></html>
