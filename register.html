@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>注册</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FF98EA;
+    }
+
+    .container {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      color: #555;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #fff;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+    <button id="backButton" style="width:80px;height:80px; margin-left:15px; margin-top:40px;background-color: #FFFFFF00;border: none; border-radius: 40px;color: #fff;font-size:24px", onclick="goBack()">
+        <img style="width: 40px;height: 40px;" src="./backIcon.png" alt="">
+    </button>
+    <h2>YO社圈注册</h2>
+    <form action="/login" method="post">
+        
+        <div class="container">
+            <div class="form-group">
+              <label for="username">手机号</label>
+              <input type="text" id="username" name="username" placeholder="请输入手机号" required>
+            </div>
+            <div class="form-group">
+              <label for="password">短信验证码</label>
+              <input type="password" id="password" name="password" placeholder="请输入验证码" required>
+            </div>
+        </div>
+        <div class="form-group" sty>
+          <input type="submit" value="Login">
+        </div>
+    </form>
+  
+  <script type="text/javascript">
+      function goBack() {
+        window.history.back();
+      }
+  </script>
+</body>
+</html>
+
