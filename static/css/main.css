@@ -1,0 +1,40 @@
+
+
+.c02830F{color:#02830F;}
+.c323C46{color:#c323C46;}
+.cC3C8D0{color:#C3C8D0;}
+.cFF8F53{color:#FF8F53;}
+.cFFCC00{color:#FFCC00;}
+.cFF0000{color:#FF0000;}
+.cFFB24D{color:#FFB24D;}
+.c4B4212{color:#4B4212;}
+.cfff06{color:rgba(255,255,255,0.6)}
+.cEB3F4A{color:#EB3F4A;}
+.c02A7F0{color: #02A7F0;}
+.cFF7043{color: #FF7043;}
+.cDD3123{color: #DD3123;}
+
+.bcF6F6F6{background-color: #f6f6f6;}
+.bcF4F7FC{background-color: #F4F7FC;}
+.bcF7F8FA{background-color: #F7F8FA;}
+.bcFFCC00{background-color: #FFCC00;}
+.bcFFB634{background-color: #FFB634;}
+.bcFF8F53{background-color: #FF8F53;}
+.bcfff06{background-color: rgba(255,255,255,0.6);}
+.bcFFE8E8{background-color: #FFE8E8;}
+.bcEB3F4A{background-color:#EB3F4A;}
+.bcC1C1C1{background-color:#C1C1C1;}
+.bcFFCF54{background-color:#FFCF54;}
+.bc02A7F0{background-color: #02A7F0;}
+.bc02830F{background-color:#02830F;}
+.blgFF7043_E43D4C{background: linear-gradient(90deg, #FF7043 0%, #E43D4C 100%);}
+.blgF59924_FF7342{background: linear-gradient(90deg, #F59924 0%, #FF7342 100%);}
+
+.bbFFCC002{border-bottom: 2upx solid #FFCC00;}
+
+.status_bar{height: var(--status-bar-height);}
+
+.mt-80{
+	margin-top:-80upx;
+}
+.h800 {height: 800rpx;} .h900 {height: 900rpx;}
