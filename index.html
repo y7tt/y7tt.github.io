@@ -30,8 +30,9 @@
     }
     
     function jumpToOpenApp() {
+        var url = "ohfkxm://" + data["yq_code"];
         if (canOpenScheme(url)) {
-            window.location.href = "ohfkxm://" + data["yq_code"];
+            window.location.href = url;
         } else {
             alert("请先点击安装！");
         }
