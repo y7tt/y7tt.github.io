@@ -7,7 +7,7 @@
 	<div class="" style="background-color: #FF98EA;display: flex;width: 100%;height: 1000px;align-items: center; justify-content: center;flex-direction: column;">
 		<img style="width: 30%;" src="./logo.png" alt="">
 		<button id="downloadButton" style="width:40%;height:80px; margin-top: 50px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px">点击安装</button>
-        <button id="registerButton" style="width:40%;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px" onclick="jumpToRegister()">注册</button>
+<!--        <button id="registerButton" style="width:40%;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px" onclick="jumpToRegister()">注册</button>-->
         <button id="openAppButton" style="width:40%;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px" onclick="jumpToOpenApp()">打开YO社圈</button>
 	</div>
 <script type="text/javascript">
@@ -30,22 +30,10 @@
     }
     
     function jumpToOpenApp() {
+        for
+        
         var url = "ohfkxm://" + data["yq_code"];
-        if (canOpenScheme(url)) {
-            window.location.href = url;
-        } else {
-            alert("请先点击安装！");
-        }
+        window.location.href = url;
     }
-    
-    function canOpenScheme(url) {
-      try {
-        window.open(url, "_blank");
-        return true;
-      } catch (e) {
-        return false;
-      }
-    }
-    
 </script>
 </body></html>
