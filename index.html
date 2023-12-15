@@ -8,6 +8,7 @@
 		<img style="width: 30%;" src="./logo.png" alt="">
 		<button id="downloadButton" style="width:40%;height:80px; margin-top: 50px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px">点击安装</button>
         <button id="registerButton" style="width:40%;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px" onclick="jumpToRegister()">注册</button>
+        <button id="openAppButton" style="width:40%;height:80px; margin-top: 40px;background-color: #A442FD;border: none; border-radius: 40px;color: #fff;font-size:24px" onclick="jumpToOpenApp()">打开YO社圈</button>
 	</div>
 <script type="text/javascript">
     var data = OpenInstall.parseUrlParams();
@@ -26,6 +27,10 @@
     
     function jumpToRegister() {
         window.location.href = "./register.html";
+    }
+    
+    function jumpToOpenApp() {
+        window.location.href = "ohfkxm://" + data["yq_code"];
     }
 </script>
 </body></html>
