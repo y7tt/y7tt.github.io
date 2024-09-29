@@ -1,10 +1,10 @@
 .clickButton{
-	width: 33%;
+	width: 25%;
 	height: 50px;
 	margin-top: 50px;
 	background-color: #ffffff;
 	border: none;
 	border-radius: 40px;
-	color: #ffffff;
-	font-size:40px";
+	color: #000000;
+	font-size:50px";
 }
