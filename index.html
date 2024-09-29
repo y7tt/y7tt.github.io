@@ -5,30 +5,15 @@
 		<link rel="stylesheet" href="./index.css">
 	</head>
     <body style="background-color:#32ADE6;">
-		<button id="button1" class="clickButton" onclick="clickButton1()">点击1</button>
-		<button id="button2" class="clickButton" onclick="clickButton2()">点击2</button>
+		<button id="button1" class="clickButton" onclick="clickButton1()">拦截url</button>
+		<button id="button2" class="clickButton" onclick="clickButton2()">拦截schemes</button>
 		<button id="button3" class="clickButton" onclick="clickButton3()">点击3</button>
-		
 		<script type="text/javascript">
-		    // var data = OpenInstall.parseUrlParams();
-		    // new OpenInstall({
-		    //     appKey: "ohfkxm",
-		    //     onready: function() {
-		    //         this.schemeWakeup();
-		    //         var m = this;
-			   //      var button = document.getElementById("downloadButton");
-		    //         button.onclick = function() {
-		    //             m.wakeupOrInstall();
-		    //             return false;
-		    //         };
-		    //     }
-		    // }, data);
-		    
 		    function clickButton1() {
-		        window.location.href = "http://app.yo-shequan.com/apks/register.html#/?yq_code=" + data["yq_code"];
+		        window.location.href = "https://developer.apple.com/account";
 		    }
 		    function clickButton2() {
-		        window.location.href = "ohfkxm://" + data["yq_code"];
+		        window.location.href = "ohfkxm://wode/hao?a=123&bb=345&ccc=qqqq";
 		    }
 		</script>
 	</body>
